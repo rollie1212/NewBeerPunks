@@ -1,0 +1,18 @@
+{
+  "author": "@beerpunksdotnft",
+  "siteUrl": "https://beerpunks.online",
+  "contractName": "bp.tenk.testnet",
+  "image": "BEER_PUNKS_BORD4.png",
+  "social": [
+    {
+      "href": "https://discord.gg/dens4yzvDG",
+      "img":  "discord.svg",
+      "alt": "Discord"
+    },
+    {
+      "href": "https://twitter.com/beerpunksdotnft",
+      "img":  "twitter.svg",
+      "alt": "Twitter"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+/**
+ * Make sure these look good in light mode and dark mode!
+ * If you omit any values, defaults will be used.
+ */
+$white: #fdfdfd;
+$black: #262626;
+$accent: rgb(0, 175, 0);
+
+/**
+ * You can add any other styles below
+ */
+.about h1 {
+  color: $accent;
+}
+.team .grid {
+  gap: var(--spacing-xl);
+  grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+
+  @media (min-width: 800px) {
+    padding: var(--spacing-xl);
+  }
+
+  &>* {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .image {
+    border-radius: 1000px;
+    flex: 0 0 133px;
+    height: 133px;
+    overflow: hidden;
+  }
+}
